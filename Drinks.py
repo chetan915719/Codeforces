@@ -1,0 +1,5 @@
+n = int(input())
+lst = list(map(int,input().split()))
+lst = list(map(lambda x : x/100 , lst))
+sumLst = sum(lst)
+print("{0:.12f}".format(sumLst/n*100))

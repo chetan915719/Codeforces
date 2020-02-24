@@ -1,0 +1,5 @@
+lst = list(map(int,input().split()))
+x = int((lst[1]*lst[2])/lst[6])
+y = (lst[3]*lst[4])
+z = int((lst[5]/lst[7]))
+print(int(min(x,y,z)/lst[0]))
